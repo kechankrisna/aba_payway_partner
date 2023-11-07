@@ -12,10 +12,12 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "7.8",
-        "netresearch/jsonmapper": "4.2"
+        "netresearch/jsonmapper": "4.2",
+        "ext-openssl": "*"
     },
     "require-dev": {
         "pestphp/pest-plugin": "1.1",
+        "pestphp/pest-plugin-laravel": "^1.4",
         "pestphp/pest-plugin-parallel": "1.2",
         "phpunit/phpunit": "9.6"
     },
