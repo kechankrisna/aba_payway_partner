@@ -1,7 +1,7 @@
 {
     "name": "aba_payway_gateway/php_payway_partner",
     "description": "A self registration for aba payway",
-    "homepage": "https://github.com/kechankrisna/php_payway_partner",
+    "homepage": "https://github.com/kechankrisna/aba_payway_partner",
 	"license": "proprietary",
     "type": "library",
     "authors": [
