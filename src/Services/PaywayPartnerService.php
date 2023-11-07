@@ -20,7 +20,13 @@ class PaywayPartnerService
     }
 
 
-    public function registerMerchant(PaywayPartnerRegisterMerchant $merchant): PaywayPartnerRegisterMerchantResponse|null
+    /**
+     * register a new merchant
+     *
+     * @param PaywayPartnerRegisterMerchant $merchant
+     * @return PaywayPartnerRegisterMerchantResponse
+     */
+    public function registerMerchant(PaywayPartnerRegisterMerchant $merchant): PaywayPartnerRegisterMerchantResponse
     {
         $res = new PaywayPartnerRegisterMerchantResponse(url: "",
             token: "",
@@ -60,7 +66,13 @@ class PaywayPartnerService
 
     }
 
-    public function checkMerchant(PaywayPartnerCheckMerchant $merchant): PaywayPartnerCheckMerchantResponse|null
+    /**
+     * check a status merchant
+     *
+     * @param PaywayPartnerCheckMerchant $merchant
+     * @return PaywayPartnerCheckMerchantResponse
+     */
+    public function checkMerchant(PaywayPartnerCheckMerchant $merchant): PaywayPartnerCheckMerchantResponse
     {
         $res = new PaywayPartnerCheckMerchantResponse(data: "",
             status: new PaywayPartnerCheckMerchantResponseStatus(
